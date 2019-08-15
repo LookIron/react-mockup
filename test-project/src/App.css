@@ -1,0 +1,22 @@
+#App {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+.container{
+  flex-direction: row;
+  display: flex;
+}
+
+.container-left{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+
+}
+
+.container-right{
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+}

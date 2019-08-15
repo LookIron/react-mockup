@@ -1,0 +1,20 @@
+.item-container{
+    flex-direction: row;
+    display: flex;
+
+    padding: 0 1rem;
+}
+.item-menu{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-menu-title{
+    font-size: 0.8rem;
+}
+.item-menu .fas{
+    font-size: 1.8rem;
+    color:#858585;
+}
