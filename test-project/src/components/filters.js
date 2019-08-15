@@ -11,31 +11,22 @@ class Filter extends Component {
             </div>
             <div className="filter-content">
                 <div className="filter-title">
-                    <i className="far fa-lightbulb"/>
+                    <i className="far fa-lightbulb space"/>
                     <span>Smart Filters</span>
                 </div>
                 <r/>
                 <div className="filter-items">
                     <div className="item-content">
-                        <i className="fas fa-home"/>
-                        <div className="custom-control custom-switch">
-                            <input type="checkbox" className="custom-control-input" id="customSwitch1" />
-                            <label class="custom-control-label" for="customSwitch1"></label>
-                        </div>
+                        <i className="fas fa-home space"/>
+                        <i className="fas fa-toggle-off space-left"/>
                     </div>
                     <div className="item-content">
-                        <i className="fas fa-home"/>
-                        <div className="custom-control custom-switch">
-                            <input type="checkbox" className="custom-control-input" id="customSwitch1" />
-                            <label class="custom-control-label" for="customSwitch1"></label>
-                        </div>
+                        <i className="fas fa-home space"/>
+                        <i className="fas fa-toggle-off space-left"/>
                     </div>
                     <div className="item-content">
-                        <i className="fas fa-home"/>
-                        <div className="custom-control custom-switch">
-                            <input type="checkbox" className="custom-control-input" id="customSwitch1" />
-                            <label class="custom-control-label" for="customSwitch1"></label>
-                        </div>
+                        <i className="fas fa-home space"/>
+                        <i className="fas fa-toggle-off space-left"/>
                     </div>             
                 </div>
                 <div className="filter-buttons">

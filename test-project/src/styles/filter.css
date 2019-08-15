@@ -20,6 +20,12 @@
     justify-content: center;
     width: 100%;
 }
+.space{
+    margin-right: .5rem;
+}
+.space-left{
+    margin-left: .7rem;
+}
 r{
     color:#858585
 }
@@ -36,6 +42,13 @@ img {
     height: calc(1.5rem - 4px);
 }
  .item-content{
-    justify-content: space-evenly !important;
+    display: flex;
+    justify-content: space-between;
  }
-
+ .filter-items{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
