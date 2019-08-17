@@ -14,27 +14,35 @@ class Filter extends Component {
                     <i className="far fa-lightbulb space"/>
                     <span>Smart Filters</span>
                 </div>
-            
+                <hr />
                 <div className="filter-items">
                     <div className="item-content">
-                        <i className="fas fa-home space"/>
-                        <i className="fas fa-toggle-off space-left"/>
+                        <i className="fas fa-funnel-dollar space" />
+                        <label className="switch">
+                            <input type="checkbox" />
+                            <span className="slider round"></span>
+                        </label>
                     </div>
                     <div className="item-content">
                         <i className="fas fa-calendar-alt space"/>
-                        <i className="fas fa-toggle-off space-left"/>
+                        <label className="switch">
+                            <input type="checkbox" />
+                            <span className="slider round"></span>
+                        </label>
                     </div>
                     <div className="item-content">
                         <i className="fas fa-heart space"/>
-                        <i className="fas fa-toggle-off space-left"/>
+                        <label className="switch">
+                            <input type="checkbox" />
+                            <span className="slider round"></span>
+                        </label>
                     </div>             
-                </div>
-                          
-                
-                <div className="filter-buttons">
-                    <span>Satus</span>
-                    <input type="text" placeholder="Search..." />
-                    <button type="button" class="btn btn-light">DELIVERED</button>
+                </div>                         
+                <hr />
+                <div className="filter-buttons">                   
+                    <span className="title-buttom"> Status</span>                    
+                    <input className="search" type="text" placeholder="Search..." />
+                    <button className="filter-button" type="button" >DELIVERED</button>
                 </div>
             </div>
         </div>

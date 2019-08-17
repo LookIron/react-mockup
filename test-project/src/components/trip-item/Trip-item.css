@@ -1,0 +1,49 @@
+.trip-item-container{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    margin: 0.7rem 0;
+}
+.item-check{
+    display: flex;
+    flex-direction: column;
+    flex: 0.3;
+    margin-right: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-trip{
+    display: flex;
+    flex-direction: row;
+    flex: 2.5;
+    align-items: center;
+    border-radius: 2.5rem;
+    background-color: white;
+    padding: 1rem;
+}
+
+.separador{
+    height: 4em;
+    border-right: solid 1px;
+    border-color: #e2dede;
+}
+.fa-check-circle{
+    font-size: 3rem;
+    color: #fc8710;
+    background-color: white;
+    border-radius: 50%;
+
+}
+.fa-plus-circle{
+    font-size: 4rem;
+    color: #fc8710;
+    cursor:pointer;
+    background-color: white;
+    border-radius: 50%;
+}
+.floating-button{
+    display: flex;
+    flex-direction: row-reverse;
+
+}

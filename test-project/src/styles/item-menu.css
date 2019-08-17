@@ -1,20 +1,27 @@
-.item-container{
+.item-menu-container{
     flex-direction: row;
     display: flex;
-
-    padding: 0 1rem;
-}
-.item-menu{
     flex-direction: column;
-    display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    padding: 0.2rem 5rem;
+    cursor: pointer;
 }
-
+.item-menu-container:hover{
+    background-color: #0a3a49;
+    color: white;
+}
+.item-menu-container:hover div .fas{
+    color: white;
+}
 .item-menu-title{
     font-size: 0.8rem;
+    width: max-content;
 }
 .item-menu .fas{
     font-size: 1.8rem;
     color:#858585;
+}
+.item-menu-img{
+    margin-bottom: 0.3rem;
 }

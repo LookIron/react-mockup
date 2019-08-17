@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Menu from './components/menu/Menu';
 import Filter from './components/filters';
-import Trips from './components/trip-item/Trip-Item'
+import Trips from './components/trip-items/Trip-Items'
 
 class App extends Component {
   render() {
@@ -15,7 +15,7 @@ class App extends Component {
           </div>
           <div className="container-right">
             <Menu />
-            
+            <Trips />
           </div>
         </div>
       </div>

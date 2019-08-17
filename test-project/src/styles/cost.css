@@ -1,0 +1,29 @@
+.cost-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0.5rem 1rem 2rem
+}
+.cost-price{
+    font-size: 2.5rem;
+    color: #858585;
+    margin: 0 1rem;
+}
+.cost-numer{
+    background-color: #ff424f;
+    width: 1rem;
+    border: none;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    text-decoration: none;
+    margin: 0.5rem 0;
+    color: white;
+    margin: 0 2rem;
+}
+.fa-truck{
+    font-size: 3rem;
+    transform: scaleX(-1);
+    margin: 0 1rem;
+}

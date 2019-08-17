@@ -1,0 +1,23 @@
+.trip-items-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 64rem;
+    margin-top: 2rem;
+}
+.trip-share{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.item-search{
+    text-align: center;
+    padding: 0.7rem;
+    width: 21rem;
+    border-radius: 0.3rem;
+    text-decoration: none;
+    border: aliceblue;
+    margin: 0.5rem 0;
+}
+.trip-items-list{
+    display: flex;
+    flex-direction: column;
+}

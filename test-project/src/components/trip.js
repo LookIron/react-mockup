@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import '../styles/trip.css';
 
-class TripFromTo extends React.Component {
+export default class TripFromTo extends Component {
     
     constructor(){
         super();
@@ -10,22 +11,21 @@ class TripFromTo extends React.Component {
     }
     
     render() {
-        return <div className="trip-from-to">
+        return <div className="trip-from-to-container">
+            <div className="trip-location-img">
+                <i className="fas fa-location-arrow"></i>
+            </div>
             <div className="trip-info">
                 <div className="item-from">
-                    Image
+                    {this.props.from}
                 </div>
                 <div className="item-img">
-                    Hello
+                    <i className="fas fa-chevron-down"></i>
                 </div>
                 <div className="item-to">
-                    Hello
+                    {this.props.to}
                 </div>
             </div>
-            <div className="trip-location-img">
-
-            </div>
-            
         </div>
         
     }

@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
-class TripDate extends React.Component {
+import '../styles/date.css';
+
+export default class TripDate extends Component {
 
     render() {
-        return <div className="item-menu">
+        return <div className="date-container">
             <div className="date-day-desc">
                 Monday
             </div>

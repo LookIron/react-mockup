@@ -1,4 +1,5 @@
 #App {
+  padding: 2rem 1rem;
 }
 .container{
   flex-direction: row;
@@ -8,8 +9,9 @@
 
 .container-left{
   display: flex;
-  flex: 0.5;
   flex-direction: column;
+  flex: 0.3;
+  margin-right: 3rem;
 }
 
 .container-right{
